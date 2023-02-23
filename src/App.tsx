@@ -1,12 +1,12 @@
-import './App.css'
+import './App.scss';
+import { Login } from './Components/Users/Login/Login';
 
 function App() {
- 
-  return (
-    <div className="App">
-    <h1>Hello !</h1>
-    </div>
-  )
+	return (
+		<>
+			<Login />
+		</>
+	);
 }
 
-export default App
+export default App;

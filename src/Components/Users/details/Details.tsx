@@ -1,5 +1,6 @@
 import { Navbar } from '../../Layouts/navbar/Navbar';
 import { Sidebar } from '../../Layouts/sidebar/Sidebar';
+import { UserInfo } from '../../userInfo/UserInfo';
 import './details.scss';
 
 export const Details = () => {
@@ -53,6 +54,7 @@ export const Details = () => {
 						</div>
 					</div>
 				</div>
+				<UserInfo/>
 			</div>
 		</div>
 	);

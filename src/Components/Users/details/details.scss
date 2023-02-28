@@ -3,6 +3,7 @@
 
 	.detailsContainer {
 		position: relative;
+		
 		p {
 			margin: 65px 0 0 60px;
 			font-family: 'Work Sans';
@@ -57,6 +58,7 @@
 			}
 		}
 		.userprofile {
+			margin-left: 20px;
 			width: 1037px;
 			height: 210px;
 			background: #ffffff;
@@ -167,7 +169,7 @@
 				.links {
 					position: absolute;
 					display: flex;
-					width: 100%;
+					width: 900px;
 					left: 50px;
 					top: 451px;
 					font-family: 'SF Compact Text';

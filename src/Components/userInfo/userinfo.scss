@@ -1,0 +1,84 @@
+.userInfo {
+	margin: 30px 0 0 20px;
+	width: 1037px;
+	background: #ffffff;
+	border: 1px solid rgba(33, 63, 125, 0.06);
+	box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+	border-radius: 4px;
+	hr {
+		width: 977px;
+		height: 0px;
+		opacity: 0.1;
+		border: 1px solid #213f7d;
+        margin-bottom: 40px ;
+	}
+	.personalInfoText,
+	.eduInfoText,
+	.socialInfoText,
+	.guarantorInfoText {
+		h3 {
+			margin-left: 20px;
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			color: #213f7d;
+		}
+	}
+	.personalInfo {
+		margin-left: 20px;
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		align-items: center;
+
+		.info {
+			text-align: start;
+			h4 {
+				font-family: 'Work Sans';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 14px;
+				text-transform: uppercase;
+				color: #545f7d;
+			}
+			h3 {
+				font-family: 'Work Sans';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 19px;
+				color: #545f7d;
+			}
+		}
+	}
+	.eduInfo,
+	.socialInfo,
+	.guarantorInfo {
+		margin-left: 20px;
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		align-items: center;
+		.info {
+			text-align: start;
+			h4 {
+				font-family: 'Work Sans';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 14px;
+				text-transform: uppercase;
+				color: #545f7d;
+			}
+			h3 {
+				font-family: 'Work Sans';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 19px;
+				color: #545f7d;
+			}
+		}
+	}
+}

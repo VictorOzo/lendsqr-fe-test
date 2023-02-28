@@ -1,0 +1,183 @@
+.detailsWrapper {
+	display: flex;
+
+	.detailsContainer {
+		position: relative;
+		p {
+			margin: 65px 0 0 60px;
+			font-family: 'Work Sans';
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+			color: #545f7d;
+			i {
+				margin-right: 14px;
+			}
+		}
+		flex: 6;
+		.detailsText {
+			margin: 32px 60px 46px 60px;
+			display: flex;
+			align-items: center;
+			justify-items: center;
+			justify-content: space-between;
+			h3 {
+				font-family: 'Work Sans';
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 28px;
+				color: #213f7d;
+			}
+			.detailsButton {
+				a {
+					text-decoration: none;
+					padding: 10px;
+					margin-left: 20px;
+				}
+				.black {
+					font-family: 'Work Sans';
+					font-weight: 600;
+					font-size: 14px;
+					letter-spacing: 0.1em;
+					text-transform: uppercase;
+					color: #e4033b;
+					border: 1px solid #e4033b;
+					border-radius: 8px;
+				}
+				.active {
+					font-family: 'Work Sans';
+					font-weight: 600;
+					font-size: 14px;
+					letter-spacing: 0.1em;
+					text-transform: uppercase;
+					color: #39cdcc;
+					border: 1px solid #39cdcc;
+					border-radius: 8px;
+				}
+			}
+		}
+		.userprofile {
+			width: 1037px;
+			height: 210px;
+			background: #ffffff;
+			border: 1px solid rgba(33, 63, 125, 0.06);
+			box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+			border-radius: 4px;
+			.credentials {
+				display: flex;
+
+				.icon {
+					position: absolute;
+					width: 100px;
+					height: 100px;
+					left: 70px;
+					top: 370px;
+					background: #21407d18;
+					border-radius: 50%;
+					color: #213f7d;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				.name {
+					h3 {
+						position: absolute;
+						left: 193px;
+						top: 370px;
+						font-family: 'Work Sans';
+						font-weight: 500;
+						font-size: 22px;
+						color: #213f7d;
+					}
+					p {
+						position: absolute;
+						left: 135px;
+						top: 370px;
+						font-size: 14px;
+						line-height: 16px;
+						color: #545f7d;
+					}
+				}
+				.vl1 {
+					position: absolute;
+					width: 80px;
+					height: 0px;
+					left: 320px;
+					top: 420px;
+					opacity: 0.2;
+					border: 1px solid #545f7d;
+					transform: rotate(90deg);
+				}
+				.vl2 {
+					position: absolute;
+					width: 80px;
+					height: 0px;
+					left: 470px;
+					top: 420px;
+					opacity: 0.2;
+					border: 1px solid #545f7d;
+					transform: rotate(90deg);
+				}
+				.tier {
+					p {
+						position: absolute;
+						left: 340px;
+						top: 330px;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 14px;
+						line-height: 16px;
+						color: #545f7d;
+					}
+					.tierIcon {
+						position: absolute;
+						left: 400px;
+						top: 430px;
+						color: #e9b200;
+					}
+				}
+				.bankdetails {
+					h3 {
+						position: absolute;
+						width: 137px;
+						height: 23px;
+						left: 550px;
+						top: 370px;
+						font-family: 'Work Sans';
+						font-style: normal;
+						font-weight: 500;
+						font-size: 22px;
+						line-height: 26px;
+						color: #213f7d;
+					}
+					p {
+						position: absolute;
+						width: 157px;
+						height: 14px;
+						left: 490px;
+						top: 370px;
+						font-family: 'Work Sans';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 12px;
+						line-height: 14px;
+						color: #213f7d;
+					}
+				}
+				.links {
+					position: absolute;
+					display: flex;
+					width: 100%;
+					left: 50px;
+					top: 451px;
+					font-family: 'SF Compact Text';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 19px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

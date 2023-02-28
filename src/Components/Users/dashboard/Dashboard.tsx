@@ -2,6 +2,7 @@ import './dashboard.scss';
 import { Sidebar } from '../../Layouts/sidebar/Sidebar';
 import { Navbar } from '../../Layouts/navbar/Navbar';
 import { Widgets } from '../../Layouts/widgets/Widgets';
+import { Datatable } from '../../datatable/Datatable';
 
 export const Dashboard = () => {
 	return (
@@ -33,6 +34,9 @@ export const Dashboard = () => {
 						title='users with savings'
 						num='102,453'
 					/>
+				</div>
+				<div className='datatable'>
+					<Datatable />
 				</div>
 			</div>
 		</div>
